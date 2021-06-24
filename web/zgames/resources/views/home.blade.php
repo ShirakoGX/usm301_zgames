@@ -23,12 +23,13 @@
                 </div>
             </div>
         </div>
-            <div class="card-footer d-grid gap-1">
-                <button class="btn btn-info">Registrar</button>
+            <div class="card-footer d-grid gap-1 bg-warning">
+                <button id="registrar-btn" class="btn btn-info">Registrar</button>
             </div>
         </div>
     </div>
 @endsection
 @section("javascript")
+<script src="{{asset('js/servicios/consolasService.js')}}"></script>
 <script src="{{asset('js/home.js')}}"></script>
 @endsection
